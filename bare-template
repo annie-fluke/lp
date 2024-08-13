@@ -1,0 +1,390 @@
+import React, { useEffect } from "react"
+import { Helmet } from "react-helmet"
+
+export default function Form(props) {
+    useEffect(() => {
+        const scriptUrls = [
+            "https://download.fluke.com/Fluke/eloqua/scripts/jquery-latest.min.js",
+            "https://download.fluke.com/Fluke/eloqua/scripts/elqForm.js",
+            "https://download.fluke.com/Fluke/eloqua/scripts/GA.js",
+            "https://content.fluke.com/Eloqua/lptemplates/js/validate.js",
+            "https://download.fluke.com/Fluke/eloqua/scripts/dropdown-v3.js",
+            "https://download.fluke.com/Fluke/eloqua/scripts/GDPRConsent_IG.js",
+        ]
+
+        scriptUrls.forEach((src) => {
+            const script = document.createElement("script")
+            script.src = src
+            script.type = "text/javascript"
+            document.body.appendChild(script)
+
+            // Clean up script tags on unmount
+            return () => {
+                document.body.removeChild(script)
+            }
+        })
+    }, [])
+
+    function submitForm(arg0: any): void {
+        throw new Error("Function not implemented.")
+    }
+
+    return (
+        <>
+            <Helmet>
+                <meta name="opco" content="IG" />
+                <meta name="lang" content="eng" />
+            </Helmet>
+            <div>
+                <form
+                    method="post"
+                    name="everything2018"
+                    id="form224"
+                    onSubmit={() => submitForm(this)}
+                    action="https://s1182545284.t.eloqua.com/e/f2"
+                    className="el-form"
+                    style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "left",
+                        fontFamily: "Noto Sans, sans-serif",
+                        fontSize: "16px",
+                        color: "black",
+                        padding: "24px",
+                        backgroundColor: "white",
+                        borderRadius: "8px",
+                        boxShadow: "0 0 8px 0 rgba(0, 0, 0, 0.0)",
+                    }}
+                >
+                    <input
+                        value="everything2018"
+                        type="hidden"
+                        name="elqFormName"
+                    />
+                    <input value="1182545284" type="hidden" name="elqSiteId" />
+                    {/* Hidden Variables */}
+                    <input
+                        type="hidden"
+                        name="eloquaStatus"
+                        id="eloquaStatus"
+                    />
+                    <input
+                        type="hidden"
+                        name="iGLastMSCRMAssetID"
+                        id="iGLastMSCRMAssetID"
+                    />
+                    <input
+                        type="hidden"
+                        name="emlReciptAddress"
+                        id="emlReciptAddress"
+                    />
+                    <input type="hidden" name="emlSubLine" id="emlSubLine" />
+                    <input
+                        type="hidden"
+                        name="addToCampaign"
+                        id="addToCampaign"
+                    />
+                    <input
+                        type="hidden"
+                        name="iGLastMSCRMDistributorAccountGUID"
+                        id="iGLastMSCRMDistributorAccountGUID"
+                    />
+                    <input type="hidden" name="redir" id="redir" />
+                    <input
+                        type="hidden"
+                        name="preferredLanguage"
+                        id="langSelect"
+                        value="eng"
+                    />
+                    <input
+                        type="hidden"
+                        name="iGLastMSCRMProductGUID"
+                        id="iGLastMSCRMProductGUID"
+                    />
+                    <input
+                        type="hidden"
+                        name="iGLastReportingProductFamily"
+                        id="iGLastReportingProductFamily"
+                    />
+                    <input
+                        type="hidden"
+                        name="productLineType"
+                        id="productLineType"
+                    />
+                    <input
+                        type="hidden"
+                        name="sharedContactList"
+                        id="sharedContactList"
+                    />
+                    {/* URL Variables DO NOT TOUCH*/}
+                    <input type="hidden" name="utmAdGroup" id="utmAdGroup" />
+                    <input type="hidden" name="utmAdName" id="utmAdName" />
+                    <input type="hidden" name="utmCampaign" id="utmCampaign" />
+                    <input type="hidden" name="utmContent" id="utmContent" />
+                    <input type="hidden" name="utmDomain" id="utmDomain" />
+                    <input type="hidden" name="utmKW" id="utmKW" />
+                    <input type="hidden" name="utmLP" id="utmLP" />
+                    <input type="hidden" name="utmMedium" id="utmMedium" />
+                    <input type="hidden" name="utmSize" id="utmSize" />
+                    <input type="hidden" name="utmSource" id="utmSource" />
+                    <input type="hidden" name="utmTerm" id="utmTerm" />
+                    <input type="hidden" name="emlConfirm" id="emlConfirm" />
+                    <input type="hidden" name="dcUniqueID" id="dcUniqueID" />
+                    <input
+                        type="hidden"
+                        name="elqCampaignId"
+                        id="elqCampaignId"
+                    />
+                    <input type="hidden" name="ixMarcom" id="ixMarcom" />
+                    <input type="hidden" name="ixKitCodes" id="ixKitCodes" />
+                    <input
+                        type="hidden"
+                        name="iGLastMSCRMCampaignID"
+                        id="iGLastMSCRMCampaignID"
+                    />
+                    <input
+                        type="hidden"
+                        name="CampaignResponseActivity"
+                        id="CampaignResponseActivity"
+                    />
+                    {/* <input type="hidden" name="countryNormalized" id="countryone" value="US"> */}
+                    {/* Editable IX Variables */}
+                    <input
+                        type="hidden"
+                        name="ixDear"
+                        id="ixDear"
+                        value="Dear Mr./Mrs."
+                    />
+                    <input
+                        type="hidden"
+                        name="ixAccountNo"
+                        id="ixAccountNo"
+                        value="Account Default Value"
+                    />
+                    <input type="hidden" name="ixGender" id="ixGender" />
+                    <input type="hidden" name="ixMailOk" id="ixMailOk" />
+                    {/* IX Variables for EUR Lit Fulfilment - DO NOT TOUCH */}
+                    <input type="hidden" name="ixCompany1" id="ixCompany1" />
+                    <input type="hidden" name="ixFirstName" id="ixFirstName" />
+                    <input type="hidden" name="ixLastName" id="ixLastName" />
+                    <input type="hidden" name="ixAddress1" id="ixAddress1" />
+                    <input type="hidden" name="ixAddress2" id="ixAddress2" />
+                    <input type="hidden" name="ixZip" id="ixZip" />
+                    <input type="hidden" name="ixCity" id="ixCity" />
+                    <input
+                        type="hidden"
+                        name="ixCountry"
+                        id="ixCountry"
+                        value=""
+                    />
+                    <input type="hidden" name="ixLanguage" id="ixLanguage" />
+                    <input type="hidden" name="ixState" id="ixState" />
+                    <input type="hidden" name="ixTitle" id="ixTitle" />
+                    {/* Variables for Reverse Logic - DO NOT TOUCH */}
+                    <input
+                        type="hidden"
+                        name="iGBulkEmailOptOut"
+                        id="iGBulkEmailOptOut"
+                    />
+
+                    {/* Form Fields : BEGIN */}
+                    <p>
+                        Consulting with a Fluke product expert is always free.
+                        Let's find your solution.
+                    </p>
+
+                    <div className="form-group">
+                        <label className="elqLabel">First Name*</label>
+                        <input
+                            id="field1"
+                            type="text"
+                            name="firstName"
+                            className="elqField form-control"
+                            required
+                            style={{
+                                width: "100%",
+                                padding: "10px",
+                                border: "1px solid #ccc",
+                                borderRadius: "4px",
+                            }}
+                        />
+                        <span className="require-block">
+                            This is a required field
+                        </span>
+                        <p></p>
+                    </div>
+                    <div className="form-group">
+                        <label className="elqLabel">Last Name*</label>
+                        <input
+                            id="field2"
+                            type="text"
+                            name="lastName"
+                            className="elqField form-control"
+                            required
+                            style={{
+                                width: "100%",
+                                padding: "10px",
+                                border: "1px solid #ccc",
+                                borderRadius: "4px",
+                            }}
+                        />
+                        <span className="require-block">
+                            This is a required field
+                        </span>
+                        <p></p>
+                    </div>
+                    <div className="form-group">
+                        <label className="elqLabel" htmlFor="emailAddress">
+                            Email*
+                        </label>
+                        <input
+                            id="emailAddress"
+                            type="email"
+                            name="emailAddress"
+                            className="elqField form-control"
+                            required
+                            style={{
+                                width: "100%",
+                                padding: "10px",
+                                border: "1px solid #ccc",
+                                borderRadius: "4px",
+                            }}
+                        />
+                        <span className="require-block">
+                            This is a required field
+                        </span>
+                        <p></p>
+                    </div>
+                    <div className="form-group">
+                        <label className="elqLabel">Company*</label>
+                        <input
+                            id="company"
+                            name="company"
+                            className="elqField form-control"
+                            required
+                            style={{
+                                width: "100%",
+                                padding: "10px",
+                                border: "1px solid #ccc",
+                                borderRadius: "4px",
+                            }}
+                        />
+                        <span className="require-block">
+                            This is a required field
+                        </span>
+                        <p></p>
+                    </div>
+                    <div className="form-group">
+                        <label className="elqLabel">Phone number*</label>
+                        <input
+                            id="businessPhone"
+                            type="text"
+                            name="businessPhone"
+                            className="elqField form-control"
+                            required
+                            style={{
+                                width: "100%",
+                                padding: "10px",
+                                border: "1px solid #ccc",
+                                borderRadius: "4px",
+                            }}
+                        />
+                        <span className="require-block">
+                            This is a required field
+                        </span>
+                        <p></p>
+                    </div>
+                    <div className="form-group">
+                        <label className="elqLabel">Country*</label>
+                        <select
+                            id="countryone"
+                            name="countryNormalized"
+                            className="elqField form-control"
+                            required
+                            style={{
+                                width: "100%",
+                                padding: "10px",
+                                border: "1px solid #ccc",
+                                borderRadius: "4px",
+                                fontFamily: "Noto Sans, sans serif",
+                            }}
+                        >
+                            <option value="base">Please Select</option>
+                        </select>
+                        <span className="require-block">
+                            This is a required field
+                        </span>
+                        <p></p>
+                    </div>
+                    <div className="form-group">
+                        <label className="elqLabel">Zip or Postal Code*</label>
+                        <input
+                            id="zipOrPostalCode"
+                            type="text"
+                            name="zipOrPostalCode"
+                            className="elqField form-control"
+                            required
+                            style={{
+                                width: "100%",
+                                padding: "10px",
+                                border: "1px solid #ccc",
+                                borderRadius: "4px",
+                            }}
+                        />
+                        <span className="require-block">
+                            This is a required field
+                        </span>
+                        <p></p>
+                    </div>
+                    <div className="form-group">
+                        <div
+                            id="ConsentCheck"
+                            style={{ margin: "0 0 0 16px", display: "none" }}
+                        >
+                            <input
+                                type="checkbox"
+                                name="consentcheckbox"
+                                id="consentcheckbox"
+                                value="Yes"
+                            />
+                            <span id="ConsentText" style={{ fontSize: "12px" }}>
+                                text for consent
+                            </span>
+                        </div>
+                    </div>
+                    <div className="form-group">
+                        <p style={{ marginTop: "10px" }}>
+                            <input
+                                id="submit"
+                                type="submit"
+                                className="elqSubmit"
+                                value="Speak with a Fluke specialist"
+                                style={{
+                                    fontSize: "16px",
+                                    fontFamily: "Noto Sans, sans serif",
+                                    width: "100%",
+                                    padding: "16px",
+                                    backgroundColor: "#FFC20E",
+                                    color: "black",
+                                    fontWeight: "bold",
+                                    border: "none",
+                                    borderRadius: "4px",
+                                }}
+                            />
+                        </p>
+                    </div>
+
+                    <p>
+                        <a
+                            href="http://en-us.fluke.com/site/privacy?elqTrackId=33512df3786f4ba3a73ce2c28b0e4605"
+                            target="_blank"
+                        >
+                            Your privacy is important to us
+                        </a>
+                    </p>
+                    {/* Form Fields : END */}
+                </form>
+            </div>
+        </>
+    )
+}
