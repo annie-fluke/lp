@@ -18,7 +18,6 @@ export default function Form(props) {
             script.type = "text/javascript"
             document.body.appendChild(script)
 
-            // Clean up script tags on unmount
             return () => {
                 document.body.removeChild(script)
             }
@@ -213,8 +212,8 @@ export default function Form(props) {
                         <span className="require-block">
                             This is a required field
                         </span>
-                        <p></p>
                     </div>
+                    <br />
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18624">First Name*</label>
@@ -234,8 +233,8 @@ export default function Form(props) {
                         <span className="require-block">
                             This is a required field
                         </span>
-                        <p></p>
                     </div>
+                    <br />
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18625">Last Name*</label>
@@ -255,8 +254,8 @@ export default function Form(props) {
                         <span className="require-block">
                             This is a required field
                         </span>
-                        <p></p>
                     </div>
+                    <br />
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18626">Business Phone*</label>
@@ -276,8 +275,8 @@ export default function Form(props) {
                         <span className="require-block">
                             This is a required field
                         </span>
-                        <p></p>
                     </div>
+                    <br />
                    
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18627">Company*</label>
@@ -296,8 +295,8 @@ export default function Form(props) {
                         <span className="require-block">
                             This is a required field
                         </span>
-                        <p></p>
                     </div>
+                    <br />
                     
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="countryone">Country*</label>
@@ -319,8 +318,8 @@ export default function Form(props) {
                         <span className="require-block">
                             This is a required field
                         </span>
-                        <p></p>
                     </div>
+                    <br />
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18659">Contact Me</label>
@@ -331,8 +330,8 @@ export default function Form(props) {
                             <label className="elqField checkbox-aligned elq-item-label" htmlFor="radio-No_k9uz15ye">No</label>
                             <br />
                         </div>
-                        <p></p>
                     </div>
+                    <br />
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18660">Demo Request</label>
@@ -343,8 +342,8 @@ export default function Form(props) {
                             <label className="elqField checkbox-aligned elq-item-label" htmlFor="radio-No_4gcm6byr">No</label>
                             <br />
                         </div>
-                        <p></p>
                     </div>
+                    <br />
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18647">Price Inquiry</label>
@@ -355,8 +354,8 @@ export default function Form(props) {
                             <label className="elqField checkbox-aligned elq-item-label" htmlFor="radio-No_r2keipxe">No</label>
                             <br />
                         </div>
-                        <p></p>
                     </div>
+                    <br />
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18661">Beta Tester</label>
@@ -367,8 +366,8 @@ export default function Form(props) {
                             <label className="elqField checkbox-aligned elq-item-label" htmlFor="radio-No_q7jz9bm4h">No</label>
                             <br />
                         </div>
-                        <p></p>
                     </div>
+                    <br />
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18663">Check this box to join an email waitlist to receive updates about this product.</label>
@@ -379,8 +378,8 @@ export default function Form(props) {
                             <label className="elqField checkbox-aligned elq-item-label" htmlFor="radio-No_iqc2hea">No</label>
                             <br />
                         </div>
-                        <p></p>
                     </div>
+                    <br />
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18664">Preorder</label>
@@ -391,8 +390,8 @@ export default function Form(props) {
                             <label className="elqField checkbox-aligned elq-item-label" htmlFor="radio-No_mympj83m">No</label>
                             <br />
                         </div>
-                        <p></p>
                     </div>
+                    <br />
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18671">Decision Maker</label>
@@ -403,8 +402,8 @@ export default function Form(props) {
                             <label className="elqField checkbox-aligned elq-item-label" htmlFor="radio-No_09475ne">No</label>
                             <br />
                         </div>
-                        <p></p>
                     </div>
+                    <br />
 
                     <div className="form-group">
                         <label htmlFor="fe18662">Radio Buttons1</label>
@@ -425,8 +424,8 @@ export default function Form(props) {
                                 <br />
                             </div>
                         </div>
-                        <br />
                     </div>
+                    <br />
 
                     <div className="form-group">
                         <label htmlFor="fe18665">Radio Buttons2</label>
@@ -443,8 +442,8 @@ export default function Form(props) {
                             <label htmlFor="radio-Third_5s1m5w24">Third</label>
                             <br />
                         </div>
-                        <br />
                     </div>
+                    <br />
 
                     <div className="form-group">
                         <label htmlFor="fe18666">Radio Buttons3</label>
@@ -460,8 +459,8 @@ export default function Form(props) {
                             <input type="radio" id="radio-Third_ogmidvca" value="Third" name="radioButtons3" />
                             <label htmlFor="radio-Third_ogmidvca">Third</label>
                         </div>
-                        <br />
                     </div>
+                    <br />
 
                     <div className="form-group">
                         <label htmlFor="fe18667">Radio Buttons4</label>
@@ -478,8 +477,8 @@ export default function Form(props) {
                                 <label htmlFor="radio-Third_d3gg0md">Third</label>
                                 <br />
                             </div>
-                            <br />
                     </div>
+                    <br />
 
                     <div className="form-group">
                         <label htmlFor="fe18668">Likelihood to Purchase</label>
@@ -500,6 +499,7 @@ export default function Form(props) {
                             <label htmlFor="radio-VeryUnlikely_1ajntopi">Very Unlikely</label>
                         </div>
                     </div>
+                    <br />
 
                     <div className="form-group">
                         <label htmlFor="fe18669">Product Ranking</label>
@@ -545,25 +545,113 @@ export default function Form(props) {
                                 <label htmlFor="radio-10_2tty1xf7">10</label>
                             </div>
                         </div>
-                        <div>1 = low, 10 = high</div>
+                        <div style={{ textAlign: 'center', fontSize: '0.75rem' }}>1 = low, 10 = high</div>
                     </div>
-                   
+                    <br />
+
                     <div className="form-group">
-                        <div
-                            id="ConsentCheck"
-                            style={{ margin: "0 0 0 16px", display: "none" }}
-                        >
-                            <input
-                                type="checkbox"
-                                name="consentcheckbox"
-                                id="consentcheckbox"
-                                value="Yes"
-                            />
-                            <span id="ConsentText" style={{ fontSize: "12px" }}>
-                                text for consent
-                            </span>
-                        </div>
+                        <label htmlFor="fe18649">Custom Question 1</label>
+                        <textarea
+                            name="customquestion1"
+                            id="fe18649"
+                            style={{ width: '100%', fontSize: "16px" }}
+                        />
                     </div>
+                    <br />
+
+                    <div className="form-group">
+                        <label htmlFor="fe18653">Custom Question 2</label>
+                        <textarea
+                            name="customquestion2"
+                            id="fe18653"
+                            style={{ width: '100%', fontSize: "16px" }}
+                        />
+                    </div>
+                    <br />
+
+                    <div className="form-group">
+                        <label htmlFor="fe18654">Custom Question 3</label>
+                        <textarea
+                            name="customquestion3"
+                            id="fe18654"
+                            style={{ width: '100%', fontSize: "16px" }}
+                        />
+                    </div>
+                    <br />
+
+                    <div className="form-group">
+                        <label htmlFor="fe18657">Large Custom Question</label>
+                        <textarea
+                            name="largeCustomQuestion"
+                            id="fe18657"
+                            style={{ width: '100%', fontSize: "16px" }}
+                        />
+                    </div>
+                    <br />
+
+                    <div className="form-group">
+                        <input
+                            type="checkbox"
+                            name="consentcheckbox"
+                            id="fe18630"
+                        />
+                        <label htmlFor="fe18630">Consent Checkbox</label>
+                    </div>
+                    <br />
+
+                    <div>
+                        <label htmlFor="fe18631">Soft Opt In</label>
+                        <input
+                            type="text"
+                            name="softoptin"
+                            id="fe18631"
+                            style={{ width: '100%' }}
+                        />
+                    </div>
+                    <br />            
+
+                    <div className="form-group">
+                        <label htmlFor="fe18632">Opt In Language</label>
+                        <input
+                            type="text"
+                            name="consentLanguage"
+                            id="fe18632"
+                            value=""
+                            style={{ width: '100%' }}
+                        />
+                    </div>
+                    <br />   
+
+                    <div className="form-group">
+                        <label htmlFor="fe18650">Privacy Policy Version</label>
+                        <input
+                            type="text"
+                            name="privacypolicyversion"
+                            id="fe18650"
+                            value=""
+                            style={{ width: '100%' }}
+                        />
+                    </div>
+                    <br />   
+
+                    <div className="form-group">
+                        <label htmlFor="fe18651">Personal Consent Language</label>
+                        <input
+                            type="text"
+                            name="KRconsentlanguage"
+                            id="fe18651"
+                            value=""
+                            style={{ width: '100%' }}
+                        />
+                    </div>
+                    <br />   
+
+                    <div className="form-group">
+                        <input type="checkbox" name="personalconsent" id="fe18652" />
+                        <label htmlFor="fe18652">Personal Consent Checkbox</label>
+                    </div>
+                    <br />   
+
                     <div className="form-group">
                         <p style={{ marginTop: "10px" }}>
                             <input
@@ -585,6 +673,7 @@ export default function Form(props) {
                             />
                         </p>
                     </div>
+                    <br />
 
                     <p>
                         <a
@@ -595,6 +684,9 @@ export default function Form(props) {
                         </a>
                     </p>
                     {/* Form Fields : END */}
+
+                    <input type="hidden" name="redir" id="fe18658" value="" />
+                    <input type="hidden" name="sessionID" id="fe18746" value="" />
                 </form>
             </div>
         </>
