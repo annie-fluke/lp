@@ -189,9 +189,10 @@ export default function Form(props) {
                     />
 
                     {/* Form Fields : BEGIN */}
-                    <p>
-                        Tell us what you think!
+                    <p style={{ fontSize: "18px", fontWeight: "bold" }}>
+                        We encourage you to tell us more about your interest in this product by taking the short survey using the link below. 
                     </p>
+                    <br />
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18623">
