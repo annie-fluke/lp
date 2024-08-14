@@ -211,9 +211,6 @@ export default function Form(props) {
                                 borderRadius: "4px",
                             }}
                         />
-                        <span className="require-block">
-                            This is a required field
-                        </span>
                     </div>
                     <br />
 
@@ -232,9 +229,6 @@ export default function Form(props) {
                                 borderRadius: "4px",
                             }}
                         />
-                        <span className="require-block">
-                            This is a required field
-                        </span>
                     </div>
                     <br />
 
@@ -253,9 +247,6 @@ export default function Form(props) {
                                 borderRadius: "4px",
                             }}
                         />
-                        <span className="require-block">
-                            This is a required field
-                        </span>
                     </div>
                     <br />
 
@@ -274,9 +265,6 @@ export default function Form(props) {
                                 borderRadius: "4px",
                             }}
                         />
-                        <span className="require-block">
-                            This is a required field
-                        </span>
                     </div>
                     <br />
                    
@@ -294,9 +282,6 @@ export default function Form(props) {
                                 borderRadius: "4px",
                             }}
                         />
-                        <span className="require-block">
-                            This is a required field
-                        </span>
                     </div>
                     <br />
                     
@@ -317,9 +302,6 @@ export default function Form(props) {
                         >
                             <option value="base">Please Select</option>
                         </select>
-                        <span className="require-block">
-                            This is a required field
-                        </span>
                     </div>
                     <br />
 
