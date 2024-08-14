@@ -89,7 +89,8 @@ export default function Form(props) {
                         name="iGLastMSCRMDistributorAccountGUID"
                         id="iGLastMSCRMDistributorAccountGUID"
                     />
-                    <input type="hidden" name="redir" id="redir" />
+                    <input type="hidden" name="redir" id="fe18658" value="https://newproducts.fluke.com/thankyou"/>
+                    <input type="hidden" name="sessionID" id="fe18746"/>
                     <input
                         type="hidden"
                         name="preferredLanguage"
@@ -684,9 +685,6 @@ export default function Form(props) {
                         </a>
                     </p>
                     {/* Form Fields : END */}
-
-                    <input type="hidden" name="redir" id="fe18658" value="" />
-                    <input type="hidden" name="sessionID" id="fe18746" value="" />
                 </form>
             </div>
         </>
