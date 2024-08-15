@@ -1,3 +1,8 @@
+{/* THIS IS THE TEMPLATE CODE. YOU NEED TO EDIT THIS FORM TO YOUR LIKING. 
+Please see the standard work through the Landing Page Kit or asking 
+katrina.leaf@fluke.com for it. */}
+
+
 import React, { useEffect } from "react"
 import { Helmet } from "react-helmet"
 
