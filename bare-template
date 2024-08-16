@@ -96,7 +96,7 @@ export default function Form(props) {
                     />
                     <input type="hidden" name="redir" id="fe18658" value="https://newproducts.fluke.com/thankyou" />
                     <input type="hidden" name="sessionID" id="fe18746" value="Demo1" />
-                    <input type="hidden" name="brandInterest" id="fe18844" value="IG">
+                    <input type="hidden" name="brandInterest" id="fe18844" value="IG" />
                     <input
                         type="hidden"
                         name="preferredLanguage"
