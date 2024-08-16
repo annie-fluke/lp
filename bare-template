@@ -1,7 +1,7 @@
-{/* THIS IS THE TEMPLATE CODE. YOU NEED TO EDIT THIS FORM TO YOUR LIKING. 
-Please see the standard work through the Landing Page Kit or asking 
-katrina.leaf@fluke.com for it. */}
-
+{
+    /* THIS IS THE TEMPLATE CODE. YOU NEED TO EDIT THIS FORM TO YOUR LIKING. 
+Please see the standard work through the Landing Page Kit. */
+}
 
 import React, { useEffect } from "react"
 import { Helmet } from "react-helmet"
@@ -60,13 +60,9 @@ export default function Form(props) {
                         boxShadow: "0 0 8px 0 rgba(0, 0, 0, 0.0)",
                     }}
                 >
-                    <input
-                        value="dream"
-                        type="hidden"
-                        name="elqFormName"
-                    />
+                    <input value="dream" type="hidden" name="elqFormName" />
                     <input value="1182545284" type="hidden" name="elqSiteId" />
-                    <input name="elqCampaignId" type="hidden"/>
+                    <input name="elqCampaignId" type="hidden" />
                     {/* Hidden Variables */}
                     <input
                         type="hidden"
@@ -94,9 +90,57 @@ export default function Form(props) {
                         name="iGLastMSCRMDistributorAccountGUID"
                         id="iGLastMSCRMDistributorAccountGUID"
                     />
-                    <input type="hidden" name="redir" id="fe18658" value="https://newproducts.fluke.com/thankyou" />
-                    <input type="hidden" name="sessionID" id="fe18746" value="Demo1" />
-                    <input type="hidden" name="brandInterest" id="fe18844" value="IG" />
+                    <input
+                        type="hidden"
+                        name="redir"
+                        id="fe18658"
+                        value="https://newproducts.fluke.com/thankyou"
+                    />
+                    <input
+                        type="hidden"
+                        name="sessionID"
+                        id="fe18746"
+                        value="Demo1"
+                    />
+                    <input
+                        type="hidden"
+                        name="brandInterest"
+                        id="fe18844"
+                        value="IG"
+                    />
+
+                    <input
+                        type="hidden"
+                        name="softoptin"
+                        id="fe18631"
+                        value=""
+                    />
+                    <input
+                        type="hidden"
+                        name="consentLanguage"
+                        id="fe18632"
+                        value=""
+                    />
+                    <input
+                        type="hidden"
+                        name="privacypolicyversion"
+                        id="fe18650"
+                        value=""
+                    />
+                    <input
+                        type="hidden"
+                        name="KRconsentlanguage"
+                        id="fe18651"
+                        value=""
+                    />
+                    <input
+                        type="hidden"
+                        name="KRconsentlanguage"
+                        id="fe18651"
+                        value=""
+                    />
+                    <input type="hidden" name="personalconsent" id="fe18652" />
+
                     <input
                         type="hidden"
                         name="preferredLanguage"
@@ -196,7 +240,9 @@ export default function Form(props) {
 
                     {/* Form Fields : BEGIN */}
                     <p style={{ fontSize: "18px", fontWeight: "bold" }}>
-                        We encourage you to tell us more about your interest in this product by taking the short survey using the link below. 
+                        We encourage you to tell us more about your interest in
+                        this product by taking the short survey using the link
+                        below.
                     </p>
                     <br />
 
@@ -221,7 +267,9 @@ export default function Form(props) {
                     <br />
 
                     <div className="form-group">
-                        <label className="elqLabel" htmlFor="fe18624">First Name*</label>
+                        <label className="elqLabel" htmlFor="fe18624">
+                            First Name*
+                        </label>
                         <input
                             id="fe18624"
                             type="text"
@@ -239,7 +287,9 @@ export default function Form(props) {
                     <br />
 
                     <div className="form-group">
-                        <label className="elqLabel" htmlFor="fe18625">Last Name*</label>
+                        <label className="elqLabel" htmlFor="fe18625">
+                            Last Name*
+                        </label>
                         <input
                             id="fe18625"
                             type="text"
@@ -257,7 +307,9 @@ export default function Form(props) {
                     <br />
 
                     <div className="form-group">
-                        <label className="elqLabel" htmlFor="fe18626">Business Phone*</label>
+                        <label className="elqLabel" htmlFor="fe18626">
+                            Business Phone*
+                        </label>
                         <input
                             id="fe18626"
                             type="text"
@@ -273,9 +325,11 @@ export default function Form(props) {
                         />
                     </div>
                     <br />
-                   
+
                     <div className="form-group">
-                        <label className="elqLabel" htmlFor="fe18627">Company*</label>
+                        <label className="elqLabel" htmlFor="fe18627">
+                            Company*
+                        </label>
                         <input
                             id="fe18627"
                             name="company"
@@ -290,9 +344,11 @@ export default function Form(props) {
                         />
                     </div>
                     <br />
-                    
+
                     <div className="form-group">
-                        <label className="elqLabel" htmlFor="countryone">Country*</label>
+                        <label className="elqLabel" htmlFor="countryone">
+                            Country*
+                        </label>
                         <select
                             id="countryone"
                             name="country"
@@ -312,84 +368,246 @@ export default function Form(props) {
                     <br />
 
                     <div className="form-group">
-                        <label className="elqLabel" htmlFor="fe18659">Contact Me</label>
+                        <label className="elqLabel" htmlFor="fe18659">
+                            Contact Me
+                        </label>
                         <div id="fe18659">
-                            <input type="radio" id="radio-Yes_ayobz1ga" value="Yes" name="contactMe" />
-                            <label className="elqField checkbox-aligned elq-item-label" htmlFor="radio-Yes_ayobz1ga" style={{ marginRight: '20px' }}>Yes</label>
-                            <input type="radio" id="radio-No_k9uz15ye" value="No" name="contactMe" />
-                            <label className="elqField checkbox-aligned elq-item-label" htmlFor="radio-No_k9uz15ye">No</label>
+                            <input
+                                type="radio"
+                                id="radio-Yes_ayobz1ga"
+                                value="Yes"
+                                name="contactMe"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-Yes_ayobz1ga"
+                                style={{ marginRight: "20px" }}
+                            >
+                                Yes
+                            </label>
+                            <input
+                                type="radio"
+                                id="radio-No_k9uz15ye"
+                                value="No"
+                                name="contactMe"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-No_k9uz15ye"
+                            >
+                                No
+                            </label>
                             <br />
                         </div>
                     </div>
                     <br />
 
                     <div className="form-group">
-                        <label className="elqLabel" htmlFor="fe18660">Demo Request</label>
+                        <label className="elqLabel" htmlFor="fe18660">
+                            Demo Request
+                        </label>
                         <div id="fe18660">
-                            <input type="radio" id="radio-Yes_26pyjo2i" value="Yes" name="demoRequest" />
-                            <label className="elqField checkbox-aligned elq-item-label" htmlFor="radio-Yes_26pyjo2i" style={{ marginRight: '20px' }}>Yes</label>
-                            <input type="radio" id="radio-No_4gcm6byr" value="No" name="demoRequest" />
-                            <label className="elqField checkbox-aligned elq-item-label" htmlFor="radio-No_4gcm6byr">No</label>
+                            <input
+                                type="radio"
+                                id="radio-Yes_26pyjo2i"
+                                value="Yes"
+                                name="demoRequest"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-Yes_26pyjo2i"
+                                style={{ marginRight: "20px" }}
+                            >
+                                Yes
+                            </label>
+                            <input
+                                type="radio"
+                                id="radio-No_4gcm6byr"
+                                value="No"
+                                name="demoRequest"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-No_4gcm6byr"
+                            >
+                                No
+                            </label>
                             <br />
                         </div>
                     </div>
                     <br />
 
                     <div className="form-group">
-                        <label className="elqLabel" htmlFor="fe18647">Price Inquiry</label>
+                        <label className="elqLabel" htmlFor="fe18647">
+                            Price Inquiry
+                        </label>
                         <div id="fe18647">
-                            <input type="radio" id="radio-Yes_w5nu5d8d" value="Yes" name="priceInquiry" />
-                            <label className="elqField checkbox-aligned elq-item-label" htmlFor="radio-Yes_w5nu5d8d" style={{ marginRight: '20px' }}>Yes</label>
-                            <input type="radio" id="radio-No_r2keipxe" value="No" name="priceInquiry" />
-                            <label className="elqField checkbox-aligned elq-item-label" htmlFor="radio-No_r2keipxe">No</label>
+                            <input
+                                type="radio"
+                                id="radio-Yes_w5nu5d8d"
+                                value="Yes"
+                                name="priceInquiry"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-Yes_w5nu5d8d"
+                                style={{ marginRight: "20px" }}
+                            >
+                                Yes
+                            </label>
+                            <input
+                                type="radio"
+                                id="radio-No_r2keipxe"
+                                value="No"
+                                name="priceInquiry"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-No_r2keipxe"
+                            >
+                                No
+                            </label>
                             <br />
                         </div>
                     </div>
                     <br />
 
                     <div className="form-group">
-                        <label className="elqLabel" htmlFor="fe18661">Beta Tester</label>
+                        <label className="elqLabel" htmlFor="fe18661">
+                            Beta Tester
+                        </label>
                         <div id="fe18661">
-                            <input type="radio" id="radio-Yes_jzk28vyp" value="Yes" name="betaTester" />
-                            <label className="elqField checkbox-aligned elq-item-label" htmlFor="radio-Yes_jzk28vyp" style={{ marginRight: '20px' }}>Yes</label>
-                            <input type="radio" id="radio-No_q7jz9bm4h" value="No" name="betaTester" />
-                            <label className="elqField checkbox-aligned elq-item-label" htmlFor="radio-No_q7jz9bm4h">No</label>
+                            <input
+                                type="radio"
+                                id="radio-Yes_jzk28vyp"
+                                value="Yes"
+                                name="betaTester"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-Yes_jzk28vyp"
+                                style={{ marginRight: "20px" }}
+                            >
+                                Yes
+                            </label>
+                            <input
+                                type="radio"
+                                id="radio-No_q7jz9bm4h"
+                                value="No"
+                                name="betaTester"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-No_q7jz9bm4h"
+                            >
+                                No
+                            </label>
                             <br />
                         </div>
                     </div>
                     <br />
 
                     <div className="form-group">
-                        <label className="elqLabel" htmlFor="fe18663">Check this box to join an email waitlist to receive updates about this product.</label>
+                        <label className="elqLabel" htmlFor="fe18663">
+                            Check this box to join an email waitlist to receive
+                            updates about this product.
+                        </label>
                         <div id="fe18663">
-                            <input type="radio" id="radio-Yes_0m2ssjex" value="Yes" name="mailingList" />
-                            <label className="elqField checkbox-aligned elq-item-label" htmlFor="radio-Yes_0m2ssjex" style={{ marginRight: '20px' }}>Yes</label>
-                            <input type="radio" id="radio-No_iqc2hea" value="No" name="mailingList" />
-                            <label className="elqField checkbox-aligned elq-item-label" htmlFor="radio-No_iqc2hea">No</label>
+                            <input
+                                type="radio"
+                                id="radio-Yes_0m2ssjex"
+                                value="Yes"
+                                name="mailingList"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-Yes_0m2ssjex"
+                                style={{ marginRight: "20px" }}
+                            >
+                                Yes
+                            </label>
+                            <input
+                                type="radio"
+                                id="radio-No_iqc2hea"
+                                value="No"
+                                name="mailingList"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-No_iqc2hea"
+                            >
+                                No
+                            </label>
                             <br />
                         </div>
                     </div>
                     <br />
 
                     <div className="form-group">
-                        <label className="elqLabel" htmlFor="fe18664">Preorder</label>
+                        <label className="elqLabel" htmlFor="fe18664">
+                            Preorder
+                        </label>
                         <div id="fe18664">
-                            <input type="radio" id="radio-Yes_n9haedxn" value="Yes" name="preOrder" />
-                            <label className="elqField checkbox-aligned elq-item-label" htmlFor="radio-Yes_n9haedxn" style={{ marginRight: '20px' }}>Yes</label>
-                            <input type="radio" id="radio-No_mympj83m" value="No" name="preOrder" />
-                            <label className="elqField checkbox-aligned elq-item-label" htmlFor="radio-No_mympj83m">No</label>
+                            <input
+                                type="radio"
+                                id="radio-Yes_n9haedxn"
+                                value="Yes"
+                                name="preOrder"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-Yes_n9haedxn"
+                                style={{ marginRight: "20px" }}
+                            >
+                                Yes
+                            </label>
+                            <input
+                                type="radio"
+                                id="radio-No_mympj83m"
+                                value="No"
+                                name="preOrder"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-No_mympj83m"
+                            >
+                                No
+                            </label>
                             <br />
                         </div>
                     </div>
                     <br />
 
                     <div className="form-group">
-                        <label className="elqLabel" htmlFor="fe18671">Decision Maker</label>
+                        <label className="elqLabel" htmlFor="fe18671">
+                            Decision Maker
+                        </label>
                         <div id="fe18671">
-                            <input type="radio" id="radio-Yes_kgzus6yj" value="Yes" name="decisionMaker" />
-                            <label className="elqField checkbox-aligned elq-item-label" htmlFor="radio-Yes_kgzus6yj" style={{ marginRight: '20px' }}>Yes</label>
-                            <input type="radio" id="radio-No_09475ne" value="No" name="decisionMaker" />
-                            <label className="elqField checkbox-aligned elq-item-label" htmlFor="radio-No_09475ne">No</label>
+                            <input
+                                type="radio"
+                                id="radio-Yes_kgzus6yj"
+                                value="Yes"
+                                name="decisionMaker"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-Yes_kgzus6yj"
+                                style={{ marginRight: "20px" }}
+                            >
+                                Yes
+                            </label>
+                            <input
+                                type="radio"
+                                id="radio-No_09475ne"
+                                value="No"
+                                name="decisionMaker"
+                            />
+                            <label
+                                className="elqField checkbox-aligned elq-item-label"
+                                htmlFor="radio-No_09475ne"
+                            >
+                                No
+                            </label>
                             <br />
                         </div>
                     </div>
@@ -399,18 +617,39 @@ export default function Form(props) {
                         <label htmlFor="fe18662">Radio Buttons1</label>
                         <div id="fe18662">
                             <div>
-                                <input type="radio" id="radio-First_6gub7vxl" value="First" name="radioButtons" />
-                                <label htmlFor="radio-First_6gub7vxl">First</label>
+                                <input
+                                    type="radio"
+                                    id="radio-First_6gub7vxl"
+                                    value="First"
+                                    name="radioButtons"
+                                />
+                                <label htmlFor="radio-First_6gub7vxl">
+                                    First
+                                </label>
                                 <br />
                             </div>
                             <div>
-                                <input type="radio" id="radio-Second_my2927a" value="Second" name="radioButtons" />
-                                <label htmlFor="radio-Second_my2927a">Second</label>
+                                <input
+                                    type="radio"
+                                    id="radio-Second_my2927a"
+                                    value="Second"
+                                    name="radioButtons"
+                                />
+                                <label htmlFor="radio-Second_my2927a">
+                                    Second
+                                </label>
                                 <br />
                             </div>
                             <div>
-                                <input type="radio" id="radio-Third_mvxx9rmq" value="Third" name="radioButtons" />
-                                <label htmlFor="radio-Third_mvxx9rmq">Third</label>
+                                <input
+                                    type="radio"
+                                    id="radio-Third_mvxx9rmq"
+                                    value="Third"
+                                    name="radioButtons"
+                                />
+                                <label htmlFor="radio-Third_mvxx9rmq">
+                                    Third
+                                </label>
                                 <br />
                             </div>
                         </div>
@@ -420,15 +659,32 @@ export default function Form(props) {
                     <div className="form-group">
                         <label htmlFor="fe18665">Radio Buttons2</label>
                         <div id="fe18665">
-                            <input type="radio" id="radio-First_dxf983t" value="First" name="radioButtons2" />
+                            <input
+                                type="radio"
+                                id="radio-First_dxf983t"
+                                value="First"
+                                name="radioButtons2"
+                            />
                             <label htmlFor="radio-First_dxf983t">First</label>
                             <br />
-                    
-                            <input type="radio" id="radio-Second_gozmrfwl" value="Second" name="radioButtons2" />
-                            <label htmlFor="radio-Second_gozmrfwl">Second</label>
+
+                            <input
+                                type="radio"
+                                id="radio-Second_gozmrfwl"
+                                value="Second"
+                                name="radioButtons2"
+                            />
+                            <label htmlFor="radio-Second_gozmrfwl">
+                                Second
+                            </label>
                             <br />
 
-                            <input type="radio" id="radio-Third_5s1m5w24" value="Third" name="radioButtons2" />
+                            <input
+                                type="radio"
+                                id="radio-Third_5s1m5w24"
+                                value="Third"
+                                name="radioButtons2"
+                            />
                             <label htmlFor="radio-Third_5s1m5w24">Third</label>
                             <br />
                         </div>
@@ -438,15 +694,32 @@ export default function Form(props) {
                     <div className="form-group">
                         <label htmlFor="fe18666">Radio Buttons3</label>
                         <div id="fe18666">
-                            <input type="radio" id="radio-First_11rkkqwd" value="First" name="radioButtons3" />
+                            <input
+                                type="radio"
+                                id="radio-First_11rkkqwd"
+                                value="First"
+                                name="radioButtons3"
+                            />
                             <label htmlFor="radio-First_11rkkqwd">First</label>
                             <br />
 
-                            <input type="radio" id="radio-Second_vw9zz357" value="Second" name="radioButtons3" />
-                            <label htmlFor="radio-Second_vw9zz357">Second</label>
+                            <input
+                                type="radio"
+                                id="radio-Second_vw9zz357"
+                                value="Second"
+                                name="radioButtons3"
+                            />
+                            <label htmlFor="radio-Second_vw9zz357">
+                                Second
+                            </label>
                             <br />
 
-                            <input type="radio" id="radio-Third_ogmidvca" value="Third" name="radioButtons3" />
+                            <input
+                                type="radio"
+                                id="radio-Third_ogmidvca"
+                                value="Third"
+                                name="radioButtons3"
+                            />
                             <label htmlFor="radio-Third_ogmidvca">Third</label>
                         </div>
                     </div>
@@ -454,88 +727,209 @@ export default function Form(props) {
 
                     <div className="form-group">
                         <label htmlFor="fe18667">Radio Buttons4</label>
-                            <div id="fe18667">
-                                <input type="radio" id="radio-First_cqrhvstg" value="First" name="radioButtons4" />
-                                <label htmlFor="radio-First_cqrhvstg">First</label>
-                                <br />
+                        <div id="fe18667">
+                            <input
+                                type="radio"
+                                id="radio-First_cqrhvstg"
+                                value="First"
+                                name="radioButtons4"
+                            />
+                            <label htmlFor="radio-First_cqrhvstg">First</label>
+                            <br />
 
-                                <input type="radio" id="radio-Second_k0l28vfb" value="Second" name="radioButtons4" />
-                                <label htmlFor="radio-Second_k0l28vfb">Second</label>
-                                <br />
+                            <input
+                                type="radio"
+                                id="radio-Second_k0l28vfb"
+                                value="Second"
+                                name="radioButtons4"
+                            />
+                            <label htmlFor="radio-Second_k0l28vfb">
+                                Second
+                            </label>
+                            <br />
 
-                                <input type="radio" id="radio-Third_d3gg0md" value="Third" name="radioButtons4" />
-                                <label htmlFor="radio-Third_d3gg0md">Third</label>
-                                <br />
-                            </div>
+                            <input
+                                type="radio"
+                                id="radio-Third_d3gg0md"
+                                value="Third"
+                                name="radioButtons4"
+                            />
+                            <label htmlFor="radio-Third_d3gg0md">Third</label>
+                            <br />
+                        </div>
                     </div>
                     <br />
 
                     <div className="form-group">
                         <label htmlFor="fe18668">Likelihood to Purchase</label>
-                        <div id="fe18668" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '10px' }}>
-                            <input type="radio" id="radio-VeryLikely_7gc849l" value="Very Likely" name="likelihoodToPurchase" />
-                            <label htmlFor="radio-VeryLikely_7gc849l">Very Likely</label>
-                    
-                            <input type="radio" id="radio-Likely_o7o9b16" value="Likely" name="likelihoodToPurchase" />
+                        <div
+                            id="fe18668"
+                            style={{
+                                display: "flex",
+                                justifyContent: "space-between",
+                                alignItems: "center",
+                                flexWrap: "wrap",
+                                gap: "10px",
+                            }}
+                        >
+                            <input
+                                type="radio"
+                                id="radio-VeryLikely_7gc849l"
+                                value="Very Likely"
+                                name="likelihoodToPurchase"
+                            />
+                            <label htmlFor="radio-VeryLikely_7gc849l">
+                                Very Likely
+                            </label>
+
+                            <input
+                                type="radio"
+                                id="radio-Likely_o7o9b16"
+                                value="Likely"
+                                name="likelihoodToPurchase"
+                            />
                             <label htmlFor="radio-Likely_o7o9b16">Likely</label>
-                    
-                            <input type="radio" id="radio-Neutral_x8rb9rf" value="Neutral" name="likelihoodToPurchase" />
-                            <label htmlFor="radio-Neutral_x8rb9rf">Neutral</label>
-                    
-                            <input type="radio" id="radio-Unlikely_ga2tlmop" value="Unlikely" name="likelihoodToPurchase" />
-                            <label htmlFor="radio-Unlikely_ga2tlmop">Unlikely</label>
-                    
-                            <input type="radio" id="radio-VeryUnlikely_1ajntopi" value="Very Unlikely" name="likelihoodToPurchase" />
-                            <label htmlFor="radio-VeryUnlikely_1ajntopi">Very Unlikely</label>
+
+                            <input
+                                type="radio"
+                                id="radio-Neutral_x8rb9rf"
+                                value="Neutral"
+                                name="likelihoodToPurchase"
+                            />
+                            <label htmlFor="radio-Neutral_x8rb9rf">
+                                Neutral
+                            </label>
+
+                            <input
+                                type="radio"
+                                id="radio-Unlikely_ga2tlmop"
+                                value="Unlikely"
+                                name="likelihoodToPurchase"
+                            />
+                            <label htmlFor="radio-Unlikely_ga2tlmop">
+                                Unlikely
+                            </label>
+
+                            <input
+                                type="radio"
+                                id="radio-VeryUnlikely_1ajntopi"
+                                value="Very Unlikely"
+                                name="likelihoodToPurchase"
+                            />
+                            <label htmlFor="radio-VeryUnlikely_1ajntopi">
+                                Very Unlikely
+                            </label>
                         </div>
                     </div>
                     <br />
 
                     <div className="form-group">
                         <label htmlFor="fe18669">Product Ranking</label>
-                        <div id="fe18669" style={{ display: 'flex', flexWrap: 'wrap', gap: '10px', justifyContent: 'space-between' }}>
+                        <div
+                            id="fe18669"
+                            style={{
+                                display: "flex",
+                                flexWrap: "wrap",
+                                gap: "10px",
+                                justifyContent: "space-between",
+                            }}
+                        >
                             <div>
-                                <input type="radio" id="radio-1_98d1i6sb" value="1" name="productRanking" />
+                                <input
+                                    type="radio"
+                                    id="radio-1_98d1i6sb"
+                                    value="1"
+                                    name="productRanking"
+                                />
                                 <label htmlFor="radio-1_98d1i6sb">1</label>
                             </div>
                             <div>
-                                <input type="radio" id="radio-2_3uhha7r" value="2" name="productRanking" />
+                                <input
+                                    type="radio"
+                                    id="radio-2_3uhha7r"
+                                    value="2"
+                                    name="productRanking"
+                                />
                                 <label htmlFor="radio-2_3uhha7r">2</label>
                             </div>
                             <div>
-                                <input type="radio" id="radio-3_6e4qu02h" value="3" name="productRanking" />
+                                <input
+                                    type="radio"
+                                    id="radio-3_6e4qu02h"
+                                    value="3"
+                                    name="productRanking"
+                                />
                                 <label htmlFor="radio-3_6e4qu02h">3</label>
                             </div>
                             <div>
-                                <input type="radio" id="radio-4_p4fe95fr" value="4" name="productRanking" />
+                                <input
+                                    type="radio"
+                                    id="radio-4_p4fe95fr"
+                                    value="4"
+                                    name="productRanking"
+                                />
                                 <label htmlFor="radio-4_p4fe95fr">4</label>
                             </div>
                             <div>
-                                <input type="radio" id="radio-5_fvzo4obn" value="5" name="productRanking" />
+                                <input
+                                    type="radio"
+                                    id="radio-5_fvzo4obn"
+                                    value="5"
+                                    name="productRanking"
+                                />
                                 <label htmlFor="radio-5_fvzo4obn">5</label>
                             </div>
                             <div>
-                                <input type="radio" id="radio-6_p8hchd4m" value="6" name="productRanking" />
+                                <input
+                                    type="radio"
+                                    id="radio-6_p8hchd4m"
+                                    value="6"
+                                    name="productRanking"
+                                />
                                 <label htmlFor="radio-6_p8hchd4m">6</label>
                             </div>
                             <div>
-                                <input type="radio" id="radio-7_7yk2j6b" value="7" name="productRanking" />
+                                <input
+                                    type="radio"
+                                    id="radio-7_7yk2j6b"
+                                    value="7"
+                                    name="productRanking"
+                                />
                                 <label htmlFor="radio-7_7yk2j6b">7</label>
                             </div>
                             <div>
-                                <input type="radio" id="radio-8_bki6err8" value="8" name="productRanking" />
+                                <input
+                                    type="radio"
+                                    id="radio-8_bki6err8"
+                                    value="8"
+                                    name="productRanking"
+                                />
                                 <label htmlFor="radio-8_bki6err8">8</label>
                             </div>
                             <div>
-                                <input type="radio" id="radio-9_k9szwgbj" value="9" name="productRanking" />
+                                <input
+                                    type="radio"
+                                    id="radio-9_k9szwgbj"
+                                    value="9"
+                                    name="productRanking"
+                                />
                                 <label htmlFor="radio-9_k9szwgbj">9</label>
                             </div>
                             <div>
-                                <input type="radio" id="radio-10_2tty1xf7" value="10" name="productRanking" />
+                                <input
+                                    type="radio"
+                                    id="radio-10_2tty1xf7"
+                                    value="10"
+                                    name="productRanking"
+                                />
                                 <label htmlFor="radio-10_2tty1xf7">10</label>
                             </div>
                         </div>
-                        <div style={{ textAlign: 'center', fontSize: '0.75rem' }}>1 = low, 10 = high</div>
+                        <div
+                            style={{ textAlign: "center", fontSize: "0.75rem" }}
+                        >
+                            1 = low, 10 = high
+                        </div>
                     </div>
                     <br />
 
@@ -544,7 +938,7 @@ export default function Form(props) {
                         <textarea
                             name="customquestion1"
                             id="fe18649"
-                            style={{ width: '100%', fontSize: "16px" }}
+                            style={{ width: "100%", fontSize: "16px" }}
                         />
                     </div>
                     <br />
@@ -554,7 +948,7 @@ export default function Form(props) {
                         <textarea
                             name="customquestion2"
                             id="fe18653"
-                            style={{ width: '100%', fontSize: "16px" }}
+                            style={{ width: "100%", fontSize: "16px" }}
                         />
                     </div>
                     <br />
@@ -564,7 +958,7 @@ export default function Form(props) {
                         <textarea
                             name="customquestion3"
                             id="fe18654"
-                            style={{ width: '100%', fontSize: "16px" }}
+                            style={{ width: "100%", fontSize: "16px" }}
                         />
                     </div>
                     <br />
@@ -574,73 +968,44 @@ export default function Form(props) {
                         <textarea
                             name="largeCustomQuestion"
                             id="fe18657"
-                            style={{ width: '100%', fontSize: "16px" }}
+                            style={{ width: "100%", fontSize: "16px" }}
                         />
                     </div>
                     <br />
 
-                    <div className="form-group">
-                        <input
-                            type="checkbox"
-                            name="consentcheckbox"
-                            id="fe18630"
-                        />
-                        <label htmlFor="fe18630">Consent Checkbox</label>
-                    </div>
-                    <br />
-
-                    <div>
-                        <label htmlFor="fe18631">Soft Opt In</label>
-                        <input
-                            type="text"
-                            name="softoptin"
-                            id="fe18631"
-                            style={{ width: '100%' }}
-                        />
-                    </div>
-                    <br />            
-
-                    <div className="form-group">
-                        <label htmlFor="fe18632">Opt In Language</label>
-                        <input
-                            type="text"
-                            name="consentLanguage"
-                            id="fe18632"
-                            value=""
-                            style={{ width: '100%' }}
-                        />
-                    </div>
-                    <br />   
-
-                    <div className="form-group">
-                        <label htmlFor="fe18650">Privacy Policy Version</label>
-                        <input
-                            type="text"
-                            name="privacypolicyversion"
-                            id="fe18650"
-                            value=""
-                            style={{ width: '100%' }}
-                        />
-                    </div>
-                    <br />   
-
-                    <div className="form-group">
-                        <label htmlFor="fe18651">Personal Consent Language</label>
-                        <input
-                            type="text"
-                            name="KRconsentlanguage"
-                            id="fe18651"
-                            value=""
-                            style={{ width: '100%' }}
-                        />
-                    </div>
-                    <br />   
-
-                    <div className="form-group">
-                        <input type="checkbox" name="personalconsent" id="fe18652" />
-                        <label htmlFor="fe18652">Personal Consent Checkbox</label>
-                    </div>
-                    <br />   
+                    <table
+                        id="ConsentCheck"
+                        style={{ display: "none", marginLeft: "0px" }}
+                    >
+                        <tbody>
+                            <tr>
+                                <td
+                                    style={{
+                                        verticalAlign: "top",
+                                        paddingTop: "3px",
+                                    }}
+                                >
+                                    <input
+                                        type="checkbox"
+                                        style={{
+                                            marginTop: "0px",
+                                            marginRight: "5px",
+                                        }}
+                                        name="consentcheckbox"
+                                        id="fe18630"
+                                        value="Yes"
+                                    />
+                                </td>
+                                <td>
+                                    <span
+                                        id="ConsentText"
+                                        htmlFor="consentCheckbox"
+                                        style={{ fontSize: "12px" }}
+                                    ></span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
 
                     <div className="form-group">
                         <p style={{ marginTop: "10px" }}>
