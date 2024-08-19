@@ -485,7 +485,7 @@ export default function Form(props) {
                             <input
                                 type="radio"
                                 id="radio-Yes_0m2ssjex"
-                                value="Yes, please add me to the email waitlist."
+                                value="Yes"
                                 name="mailingList"
                             />
                             <label
@@ -493,7 +493,7 @@ export default function Form(props) {
                                 htmlFor="radio-Yes_0m2ssjex"
                                 style={{ marginRight: "20px" }}
                             >
-                                Yes
+                                Yes, please add me to the email waitlist.
                             </label>
                             <br />
                         </div>
@@ -515,7 +515,7 @@ export default function Form(props) {
                             <input
                                 type="radio"
                                 id="radio-Yes_ayobz1ga"
-                                value="Yes, I would like to help by participating in further research."
+                                value="Yes"
                                 name="contactMe"
                             />
                             <label
@@ -523,7 +523,7 @@ export default function Form(props) {
                                 htmlFor="radio-Yes_ayobz1ga"
                                 style={{ marginRight: "20px" }}
                             >
-                                Yes
+                                Yes, I would like to help by participating in further research.
                             </label>
                             <br />
                         </div>
