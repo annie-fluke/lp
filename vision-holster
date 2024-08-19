@@ -322,13 +322,12 @@ export default function Form(props) {
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18627">
-                            Company*
+                            Company
                         </label>
                         <input
                             id="fe18627"
                             name="company"
                             className="elqField elq-item-input"
-                            required
                             style={{
                                 width: "100%",
                                 padding: "10px",
@@ -362,7 +361,7 @@ export default function Form(props) {
                     <br />
 
                     <div className="form-group">
-                        <label htmlFor="fe18669">Please rate the 87-VI product from a scale of 1 to 10:</label>
+                        <label htmlFor="fe18669">Please rate the 87-VI prototype product from a scale of 1 to 10:</label>
                         <div
                             id="fe18669"
                             style={{
@@ -486,7 +485,7 @@ export default function Form(props) {
                             <input
                                 type="radio"
                                 id="radio-Yes_0m2ssjex"
-                                value="Yes"
+                                value="Yes, please add me to the email waitlist."
                                 name="mailingList"
                             />
                             <label
@@ -503,7 +502,7 @@ export default function Form(props) {
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18659">
-                            Check this box if you would like to be contacted to participate in a survey to help our experts make this product better.
+                            Check this box if you would like to be contacted to participate in further research to help us improve this product.
                         </label>
                         <div 
                             id="fe18659"
@@ -516,7 +515,7 @@ export default function Form(props) {
                             <input
                                 type="radio"
                                 id="radio-Yes_ayobz1ga"
-                                value="Yes"
+                                value="Yes, I would like to help by participating in further research."
                                 name="contactMe"
                             />
                             <label
@@ -532,7 +531,7 @@ export default function Form(props) {
                     <br />
 
                     <div className="form-group">
-                        <label htmlFor="fe18668">How likely are you to upgrade your digital multimeter in the next two years? </label>
+                        <label htmlFor="fe18668">Knowing what you do today, how likely are you to upgrade to a product like the 87-VI in the next two years? </label>
                         <div
                             id="fe18668"
                             style={{
@@ -595,7 +594,7 @@ export default function Form(props) {
                     <br />
 
                     <div className="form-group">
-                        <label htmlFor="fe18649">Please use this space if you have additional comments or questions about this product.</label>
+                        <label htmlFor="fe18649">Please use this space for any additional comments or questions about this prototype product.</label>
                         <textarea
                             name="customquestion1"
                             id="fe18649"
