@@ -368,7 +368,7 @@ export default function Form(props) {
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18659">
-                            Contact Me
+                            $Contact Me
                         </label>
                         <div id="fe18659">
                             <input
@@ -403,7 +403,7 @@ export default function Form(props) {
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18660">
-                            Demo Request
+                            $Demo Request
                         </label>
                         <div id="fe18660">
                             <input
@@ -438,7 +438,7 @@ export default function Form(props) {
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18647">
-                            Price Inquiry
+                            $Price Inquiry
                         </label>
                         <div id="fe18647">
                             <input
@@ -473,7 +473,7 @@ export default function Form(props) {
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18661">
-                            Beta Tester
+                            $Beta Tester
                         </label>
                         <div id="fe18661">
                             <input
@@ -508,7 +508,7 @@ export default function Form(props) {
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18663">
-                            Check this box to join an email waitlist to receive
+                            $Check this box to join an email waitlist to receive
                             updates about this product.
                         </label>
                         <div id="fe18663">
@@ -544,7 +544,7 @@ export default function Form(props) {
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18664">
-                            Preorder
+                            $Preorder
                         </label>
                         <div id="fe18664">
                             <input
@@ -579,7 +579,7 @@ export default function Form(props) {
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18671">
-                            Decision Maker
+                            $Decision Maker
                         </label>
                         <div id="fe18671">
                             <input
@@ -613,7 +613,7 @@ export default function Form(props) {
                     <br />
 
                     <div className="form-group">
-                        <label htmlFor="fe18662">Radio Buttons1</label>
+                        <label htmlFor="fe18662">$Radio Buttons1</label>
                         <div id="fe18662">
                             <div>
                                 <input
@@ -623,7 +623,7 @@ export default function Form(props) {
                                     name="radioButtons"
                                 />
                                 <label htmlFor="radio-First_6gub7vxl">
-                                    First
+                                    $First
                                 </label>
                                 <br />
                             </div>
@@ -635,7 +635,7 @@ export default function Form(props) {
                                     name="radioButtons"
                                 />
                                 <label htmlFor="radio-Second_my2927a">
-                                    Second
+                                    $Second
                                 </label>
                                 <br />
                             </div>
@@ -647,7 +647,7 @@ export default function Form(props) {
                                     name="radioButtons"
                                 />
                                 <label htmlFor="radio-Third_mvxx9rmq">
-                                    Third
+                                    $Third
                                 </label>
                                 <br />
                             </div>
@@ -656,7 +656,7 @@ export default function Form(props) {
                     <br />
 
                     <div className="form-group">
-                        <label htmlFor="fe18665">Radio Buttons2</label>
+                        <label htmlFor="fe18665">$Radio Buttons2</label>
                         <div id="fe18665">
                             <input
                                 type="radio"
@@ -664,7 +664,7 @@ export default function Form(props) {
                                 value="First"
                                 name="radioButtons2"
                             />
-                            <label htmlFor="radio-First_dxf983t">First</label>
+                            <label htmlFor="radio-First_dxf983t">$First</label>
                             <br />
 
                             <input
@@ -674,7 +674,7 @@ export default function Form(props) {
                                 name="radioButtons2"
                             />
                             <label htmlFor="radio-Second_gozmrfwl">
-                                Second
+                                $Second
                             </label>
                             <br />
 
@@ -684,14 +684,14 @@ export default function Form(props) {
                                 value="Third"
                                 name="radioButtons2"
                             />
-                            <label htmlFor="radio-Third_5s1m5w24">Third</label>
+                            <label htmlFor="radio-Third_5s1m5w24">$Third</label>
                             <br />
                         </div>
                     </div>
                     <br />
 
                     <div className="form-group">
-                        <label htmlFor="fe18666">Radio Buttons3</label>
+                        <label htmlFor="fe18666">$Radio Buttons3</label>
                         <div id="fe18666">
                             <input
                                 type="radio"
@@ -699,7 +699,7 @@ export default function Form(props) {
                                 value="First"
                                 name="radioButtons3"
                             />
-                            <label htmlFor="radio-First_11rkkqwd">First</label>
+                            <label htmlFor="radio-First_11rkkqwd">$First</label>
                             <br />
 
                             <input
@@ -709,7 +709,7 @@ export default function Form(props) {
                                 name="radioButtons3"
                             />
                             <label htmlFor="radio-Second_vw9zz357">
-                                Second
+                                $Second
                             </label>
                             <br />
 
@@ -719,13 +719,13 @@ export default function Form(props) {
                                 value="Third"
                                 name="radioButtons3"
                             />
-                            <label htmlFor="radio-Third_ogmidvca">Third</label>
+                            <label htmlFor="radio-Third_ogmidvca">$Third</label>
                         </div>
                     </div>
                     <br />
 
                     <div className="form-group">
-                        <label htmlFor="fe18667">Radio Buttons4</label>
+                        <label htmlFor="fe18667">$Radio Buttons4</label>
                         <div id="fe18667">
                             <input
                                 type="radio"
@@ -733,7 +733,7 @@ export default function Form(props) {
                                 value="First"
                                 name="radioButtons4"
                             />
-                            <label htmlFor="radio-First_cqrhvstg">First</label>
+                            <label htmlFor="radio-First_cqrhvstg">$First</label>
                             <br />
 
                             <input
@@ -743,7 +743,7 @@ export default function Form(props) {
                                 name="radioButtons4"
                             />
                             <label htmlFor="radio-Second_k0l28vfb">
-                                Second
+                                $Second
                             </label>
                             <br />
 
@@ -753,14 +753,14 @@ export default function Form(props) {
                                 value="Third"
                                 name="radioButtons4"
                             />
-                            <label htmlFor="radio-Third_d3gg0md">Third</label>
+                            <label htmlFor="radio-Third_d3gg0md">$Third</label>
                             <br />
                         </div>
                     </div>
                     <br />
 
                     <div className="form-group">
-                        <label htmlFor="fe18668">Likelihood to Purchase</label>
+                        <label htmlFor="fe18668">$Likelihood to Purchase</label>
                         <div
                             id="fe18668"
                             style={{
@@ -823,7 +823,7 @@ export default function Form(props) {
                     <br />
 
                     <div className="form-group">
-                        <label htmlFor="fe18669">Product Ranking</label>
+                        <label htmlFor="fe18669">$Product Ranking</label>
                         <div
                             id="fe18669"
                             style={{
@@ -933,7 +933,7 @@ export default function Form(props) {
                     <br />
 
                     <div className="form-group">
-                        <label htmlFor="fe18649">Custom Question 1</label>
+                        <label htmlFor="fe18649">$Custom Question 1</label>
                         <textarea
                             name="customquestion1"
                             id="fe18649"
@@ -943,7 +943,7 @@ export default function Form(props) {
                     <br />
 
                     <div className="form-group">
-                        <label htmlFor="fe18653">Custom Question 2</label>
+                        <label htmlFor="fe18653">$Custom Question 2</label>
                         <textarea
                             name="customquestion2"
                             id="fe18653"
@@ -953,7 +953,7 @@ export default function Form(props) {
                     <br />
 
                     <div className="form-group">
-                        <label htmlFor="fe18654">Custom Question 3</label>
+                        <label htmlFor="fe18654">$Custom Question 3</label>
                         <textarea
                             name="customquestion3"
                             id="fe18654"
@@ -963,7 +963,7 @@ export default function Form(props) {
                     <br />
 
                     <div className="form-group">
-                        <label htmlFor="fe18657">Large Custom Question</label>
+                        <label htmlFor="fe18657">$Large Custom Question</label>
                         <textarea
                             name="largeCustomQuestion"
                             id="fe18657"
