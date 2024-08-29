@@ -242,14 +242,13 @@ export default function Form(props) {
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18623">
-                            Email*
+                            Email
                         </label>
                         <input
                             id="fe18623"
                             type="email"
                             name="emailAddress"
                             className="elqField elq-item-input"
-                            required
                             style={{
                                 width: "100%",
                                 padding: "10px",
@@ -262,14 +261,13 @@ export default function Form(props) {
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18624">
-                            First Name*
+                            First Name
                         </label>
                         <input
                             id="fe18624"
                             type="text"
                             name="firstName"
                             className="elqField elq-item-input"
-                            required
                             style={{
                                 width: "100%",
                                 padding: "10px",
@@ -282,51 +280,12 @@ export default function Form(props) {
 
                     <div className="form-group">
                         <label className="elqLabel" htmlFor="fe18625">
-                            Last Name*
+                            Last Name
                         </label>
                         <input
                             id="fe18625"
                             type="text"
                             name="lastName"
-                            className="elqField elq-item-input"
-                            required
-                            style={{
-                                width: "100%",
-                                padding: "10px",
-                                border: "1px solid #ccc",
-                                borderRadius: "4px",
-                            }}
-                        />
-                    </div>
-                    <br />
-
-                    <div className="form-group">
-                        <label className="elqLabel" htmlFor="fe18626">
-                            Business Phone*
-                        </label>
-                        <input
-                            id="fe18626"
-                            type="text"
-                            name="busPhone"
-                            className="elqField elq-item-input"
-                            required
-                            style={{
-                                width: "100%",
-                                padding: "10px",
-                                border: "1px solid #ccc",
-                                borderRadius: "4px",
-                            }}
-                        />
-                    </div>
-                    <br />
-
-                    <div className="form-group">
-                        <label className="elqLabel" htmlFor="fe18627">
-                            Company
-                        </label>
-                        <input
-                            id="fe18627"
-                            name="company"
                             className="elqField elq-item-input"
                             style={{
                                 width: "100%",
@@ -530,68 +489,6 @@ export default function Form(props) {
                     </div>
                     <br />
 
-                    <div className="form-group">
-                        <label htmlFor="fe18668">Knowing what you do today, how likely are you to upgrade to a product like the 87-VI in the next two years? </label>
-                        <div
-                            id="fe18668"
-                            style={{
-                                display: "flex",
-                                justifyContent: "space-between",
-                                alignItems: "center",
-                                flexWrap: "wrap",
-                                gap: "10px",
-                            }}
-                        >
-                            <input
-                                type="radio"
-                                id="radio-VeryLikely_7gc849l"
-                                value="Very Likely"
-                                name="likelihoodToPurchase"
-                            />
-                            <label htmlFor="radio-VeryLikely_7gc849l">
-                                Very Likely
-                            </label>
-
-                            <input
-                                type="radio"
-                                id="radio-Likely_o7o9b16"
-                                value="Likely"
-                                name="likelihoodToPurchase"
-                            />
-                            <label htmlFor="radio-Likely_o7o9b16">Likely</label>
-
-                            <input
-                                type="radio"
-                                id="radio-Neutral_x8rb9rf"
-                                value="Neutral"
-                                name="likelihoodToPurchase"
-                            />
-                            <label htmlFor="radio-Neutral_x8rb9rf">
-                                Neutral
-                            </label>
-
-                            <input
-                                type="radio"
-                                id="radio-Unlikely_ga2tlmop"
-                                value="Unlikely"
-                                name="likelihoodToPurchase"
-                            />
-                            <label htmlFor="radio-Unlikely_ga2tlmop">
-                                Unlikely
-                            </label>
-
-                            <input
-                                type="radio"
-                                id="radio-VeryUnlikely_1ajntopi"
-                                value="Very Unlikely"
-                                name="likelihoodToPurchase"
-                            />
-                            <label htmlFor="radio-VeryUnlikely_1ajntopi">
-                                Very Unlikely
-                            </label>
-                        </div>
-                    </div>
-                    <br />
 
                     <div className="form-group">
                         <label htmlFor="fe18649">Please use this space for any additional comments or questions about this prototype product.</label>
